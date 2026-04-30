@@ -1,0 +1,43 @@
+{
+  "number of entries": 1000,
+  "status_counts": {
+    "online": 677,
+    "offline": 323
+  },
+  "top_tags": {
+    "mozi": 302,
+    "elf": 274,
+    "32-bit": 215,
+    "smartloader": 204,
+    "zip": 204,
+    "mips": 188,
+    "clearfake": 187,
+    "mirai": 167,
+    "ua-wget": 65,
+    "arm": 36
+  },
+  "top_reporters": {
+    "geenensp": 217,
+    "tcains1": 204,
+    "anonymous": 188,
+    "adliwahid": 129,
+    "GAYINT_DOT_ORG": 85,
+    "c2hunter": 81,
+    "botnetkiller": 51,
+    "abuse_ch": 19,
+    "ClearlyNotB": 11,
+    "malwarereport": 5
+  },
+  "top_hosts": {
+    "github.com": 152,
+    "raw.githubusercontent.com": 123,
+    "129.213.9.74": 21,
+    "176.65.139.141": 16,
+    "103.77.246.198": 16,
+    "165.22.247.105": 15,
+    "54.39.101.43": 14,
+    "204.76.203.164": 11,
+    "82.26.74.80": 10,
+    "192.109.200.197": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "number of entries": 1000,
+  "unique_sha256_entries": 543,
+  "duplicate_sha256_entries": 457,
+  "file_type_counts": {
+    "zip": 247,
+    "dll": 225,
+    "elf": 200,
+    "html": 189,
+    "exe": 34,
+    "js": 28,
+    "txt": 21,
+    "hta": 18,
+    "unknown": 9,
+    "json": 9
+  },
+  "signature_counts": {
+    "missing": 596,
+    "NetSupport": 212,
+    "Mirai": 88,
+    "Mozi": 75,
+    "CoinMiner": 9,
+    "ConnectWise": 8,
+    "SantaStealer": 3,
+    "RustyStealer": 2,
+    "MeshAgent": 2,
+    "Stealc": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "number of entries": 1000,
+  "unique_sha256_entries": 570,
+  "duplicate_sha256_entries": 430,
+  "file_type_counts": {
+    "elf": 311,
+    "html": 276,
+    "dll": 186,
+    "zip": 118,
+    "js": 39,
+    "exe": 24,
+    "sh": 11,
+    "json": 10,
+    "txt": 10,
+    "hta": 7
+  },
+  "signature_counts": {
+    "missing": 543,
+    "NetSupport": 181,
+    "Mirai": 131,
+    "Mozi": 103,
+    "Gafgyt": 21,
+    "CoinMiner": 11,
+    "BRAT": 5,
+    "PurpleFox": 1,
+    "OffLoader": 1,
+    "Ligolo": 1
+  }
+}

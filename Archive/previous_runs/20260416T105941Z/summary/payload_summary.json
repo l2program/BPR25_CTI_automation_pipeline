@@ -1,0 +1,29 @@
+{
+  "number of entries": 1000,
+  "unique_sha256_entries": 552,
+  "duplicate_sha256_entries": 448,
+  "file_type_counts": {
+    "html": 262,
+    "dll": 234,
+    "elf": 215,
+    "zip": 97,
+    "txt": 55,
+    "exe": 52,
+    "js": 28,
+    "hta": 27,
+    "json": 11,
+    "ps1": 7
+  },
+  "signature_counts": {
+    "missing": 681,
+    "NetSupport": 125,
+    "Mirai": 97,
+    "Mozi": 73,
+    "CoinMiner": 13,
+    "RustyStealer": 2,
+    "CountLoader": 2,
+    "Vidar": 1,
+    "WeedHack": 1,
+    "DarkVisionRAT": 1
+  }
+}

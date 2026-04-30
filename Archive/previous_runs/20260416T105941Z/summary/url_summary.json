@@ -1,0 +1,43 @@
+{
+  "number of entries": 1000,
+  "status_counts": {
+    "online": 544,
+    "offline": 456
+  },
+  "top_tags": {
+    "zip": 273,
+    "smartloader": 267,
+    "elf": 261,
+    "clearfake": 229,
+    "32-bit": 202,
+    "mozi": 202,
+    "mips": 163,
+    "netsupport": 158,
+    "clickfix": 146,
+    "domain": 146
+  },
+  "top_reporters": {
+    "tcains1": 287,
+    "anonymous": 229,
+    "geenensp": 202,
+    "abus3reports": 146,
+    "BlinkzSec": 61,
+    "ClearlyNotB": 19,
+    "DeatWtf": 16,
+    "botnetkiller": 12,
+    "abuse_ch": 10,
+    "burger": 9
+  },
+  "top_hosts": {
+    "248bestmoon.click": 146,
+    "github.com": 139,
+    "raw.githubusercontent.com": 137,
+    "196.199.55.11": 16,
+    "93.95.115.14": 12,
+    "85.208.9.62": 11,
+    "autodiscover.atlcpatax.com": 10,
+    "77.221.153.207": 10,
+    "dl.armour-inc-down.net": 10,
+    "mail.atlcpatax.com": 9
+  }
+}

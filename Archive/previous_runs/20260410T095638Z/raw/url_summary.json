@@ -1,0 +1,43 @@
+{
+  "number of entries": 894,
+  "status_counts": {
+    "online": 409,
+    "offline": 485
+  },
+  "top_tags": {
+    "clearfake": 350,
+    "elf": 347,
+    "mozi": 337,
+    "32-bit": 294,
+    "mips": 224,
+    "netsupport": 187,
+    "mirai": 138,
+    "acrstealer": 133,
+    "arm": 71,
+    "ua-wget": 61
+  },
+  "top_reporters": {
+    "anonymous": 353,
+    "geenensp": 296,
+    "GAYINT_DOT_ORG": 72,
+    "abuse_ch": 61,
+    "adliwahid": 31,
+    "botnetkiller": 26,
+    "BlinkzSec": 24,
+    "ClearlyNotB": 10,
+    "Bitsight": 9,
+    "AmadeyHunter": 4
+  },
+  "top_hosts": {
+    "62.164.130.55": 17,
+    "206.189.93.37": 16,
+    "176.65.139.96": 12,
+    "145.223.68.170": 10,
+    "85.239.147.6": 9,
+    "i.postimg.cc": 8,
+    "129.213.9.74": 7,
+    "raw.githubusercontent.com": 6,
+    "especially-acrobat-rouge-dominant.trycloudflare.com": 6,
+    "94.156.152.67": 5
+  }
+}

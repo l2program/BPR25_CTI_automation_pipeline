@@ -1,0 +1,29 @@
+{
+  "number of entries": 1000,
+  "unique_sha256_entries": 645,
+  "duplicate_sha256_entries": 355,
+  "file_type_counts": {
+    "elf": 378,
+    "html": 267,
+    "dll": 119,
+    "zip": 68,
+    "rar": 46,
+    "js": 39,
+    "hta": 34,
+    "exe": 27,
+    "sh": 8,
+    "json": 5
+  },
+  "signature_counts": {
+    "missing": 684,
+    "Mirai": 148,
+    "Mozi": 130,
+    "CoinMiner": 21,
+    "DDoSAgent": 4,
+    "Gafgyt": 3,
+    "ZigClipper": 2,
+    "NetSupport": 2,
+    "LummaStealer": 1,
+    "Arechclient2": 1
+  }
+}

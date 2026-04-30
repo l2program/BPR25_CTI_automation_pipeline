@@ -1,0 +1,422 @@
+{
+  "url_summary": {
+    "number of entries": 894,
+    "status_counts": {
+      "online": 409,
+      "offline": 485
+    },
+    "top_tags": {
+      "clearfake": 350,
+      "elf": 347,
+      "mozi": 337,
+      "32-bit": 294,
+      "mips": 224,
+      "netsupport": 187,
+      "mirai": 138,
+      "acrstealer": 133,
+      "arm": 71,
+      "ua-wget": 61
+    },
+    "top_reporters": {
+      "anonymous": 353,
+      "geenensp": 296,
+      "GAYINT_DOT_ORG": 72,
+      "abuse_ch": 61,
+      "adliwahid": 31,
+      "botnetkiller": 26,
+      "BlinkzSec": 24,
+      "ClearlyNotB": 10,
+      "Bitsight": 9,
+      "AmadeyHunter": 4
+    },
+    "top_hosts": {
+      "62.164.130.55": 17,
+      "206.189.93.37": 16,
+      "176.65.139.96": 12,
+      "145.223.68.170": 10,
+      "85.239.147.6": 9,
+      "i.postimg.cc": 8,
+      "129.213.9.74": 7,
+      "raw.githubusercontent.com": 6,
+      "especially-acrobat-rouge-dominant.trycloudflare.com": 6,
+      "94.156.152.67": 5
+    }
+  },
+  "payload_summary": {
+    "number of entries": 1000,
+    "unique_sha256_entries": 532,
+    "duplicate_sha256_entries": 468,
+    "file_type_counts": {
+      "elf": 316,
+      "html": 279,
+      "dll": 241,
+      "js": 50,
+      "hta": 32,
+      "exe": 28,
+      "txt": 13,
+      "sh": 12,
+      "json": 11,
+      "unknown": 8
+    },
+    "signature_counts": {
+      "missing": 517,
+      "ACRStealer": 135,
+      "Mozi": 133,
+      "Mirai": 119,
+      "NetSupport": 72,
+      "CoinMiner": 16,
+      "Gafgyt": 3,
+      "ConnectWise": 2,
+      "njrat": 2,
+      "Adware.Generic": 1
+    }
+  },
+  "url_examples": [
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815489",
+      "indicator_type": "url",
+      "indicator_value": "http://122.151.156.198:57421/i",
+      "host": "122.151.156.198",
+      "first_seen": "2026-04-10 09:42:19 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3815489/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815488",
+      "indicator_type": "url",
+      "indicator_value": "https://qy55tnaq.aurasamodians.in.net/05fe317c-0981-4de2-bc8a-930d369db441/ck-3d80df5d12cdfe6450a782fc87bf66b444.google",
+      "host": "qy55tnaq.aurasamodians.in.net",
+      "first_seen": "2026-04-10 09:35:08 UTC",
+      "status": "online",
+      "tags": [
+        "acrstealer",
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3815488/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815487",
+      "indicator_type": "url",
+      "indicator_value": "https://nordraa8.aurasamodians.in.net/05fe317c-0981-4de2-bc8a-930d369db441/ck-3d80df5d12cdfe6450a782fc87bf66b444.google",
+      "host": "nordraa8.aurasamodians.in.net",
+      "first_seen": "2026-04-10 09:29:14 UTC",
+      "status": "online",
+      "tags": [
+        "acrstealer",
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3815487/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815486",
+      "indicator_type": "url",
+      "indicator_value": "http://182.116.75.76:47445/i",
+      "host": "182.116.75.76",
+      "first_seen": "2026-04-10 09:27:07 UTC",
+      "status": "online",
+      "tags": [
+        "mozi"
+      ],
+      "reporter": "GAYINT_DOT_ORG",
+      "reference": "https://urlhaus.abuse.ch/url/3815486/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815485",
+      "indicator_type": "url",
+      "indicator_value": "https://pbpx.aurasamodians.in.net/05fe317c-0981-4de2-bc8a-930d369db441/ck-3d80df5d12cdfe6450a782fc87bf66b444.google",
+      "host": "pbpx.aurasamodians.in.net",
+      "first_seen": "2026-04-10 09:24:11 UTC",
+      "status": "online",
+      "tags": [
+        "acrstealer",
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3815485/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815484",
+      "indicator_type": "url",
+      "indicator_value": "http://182.119.218.118:35172/i",
+      "host": "182.119.218.118",
+      "first_seen": "2026-04-10 09:22:08 UTC",
+      "status": "online",
+      "tags": [],
+      "reporter": "GAYINT_DOT_ORG",
+      "reference": "https://urlhaus.abuse.ch/url/3815484/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815483",
+      "indicator_type": "url",
+      "indicator_value": "https://dense3-trail.honeupwar.in.net/05fe317c-0981-4de2-bc8a-930d369db441/ck-3d80df5d12cdfe6450a782fc87bf66b444.google",
+      "host": "dense3-trail.honeupwar.in.net",
+      "first_seen": "2026-04-10 09:18:10 UTC",
+      "status": "offline",
+      "tags": [
+        "acrstealer",
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3815483/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815482",
+      "indicator_type": "url",
+      "indicator_value": "http://122.151.156.198:57421/bin.sh",
+      "host": "122.151.156.198",
+      "first_seen": "2026-04-10 09:15:11 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3815482/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815481",
+      "indicator_type": "url",
+      "indicator_value": "https://scenevivid.honeupwar.in.net/05fe317c-0981-4de2-bc8a-930d369db441/ck-3d80df5d12cdfe6450a782fc87bf66b444.google",
+      "host": "scenevivid.honeupwar.in.net",
+      "first_seen": "2026-04-10 09:13:15 UTC",
+      "status": "online",
+      "tags": [
+        "acrstealer",
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3815481/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3815480",
+      "indicator_type": "url",
+      "indicator_value": "http://27.215.126.166:53120/i",
+      "host": "27.215.126.166",
+      "first_seen": "2026-04-10 09:10:14 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3815480/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      }
+    }
+  ],
+  "payload_examples": [
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:55:12",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 145521,
+      "response_md5": "ac07ffb5cb01a1aae13d28eeee4fcf25",
+      "response_sha256": "a12c52df7bd298b4a4e6fc64059732afa326ca33eac32b7f1419250d551b625a",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/a12c52df7bd298b4a4e6fc64059732afa326ca33eac32b7f1419250d551b625a/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:54:59",
+      "filename": null,
+      "file_type": "js",
+      "file_size": 6660,
+      "response_md5": "3df14a6e4498c2ffdf834af645a66673",
+      "response_sha256": "76afe7982912ca4cac8fb9427b826f066c679cf6dac20ac77387748d026112be",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/76afe7982912ca4cac8fb9427b826f066c679cf6dac20ac77387748d026112be/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:52:48",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 6699,
+      "response_md5": "d083d461abd1d2590807918a861988ad",
+      "response_sha256": "7d0c53d362eac667ccc369d4b286dbe3e93b5e25c8d85a235d5a0651b2b1d930",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/7d0c53d362eac667ccc369d4b286dbe3e93b5e25c8d85a235d5a0651b2b1d930/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:42:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 307960,
+      "response_md5": "eec5c6c219535fba3a0492ea8118b397",
+      "response_sha256": "12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef",
+      "signature": "Mirai",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:35:08",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 3631128,
+      "response_md5": "746bc3d5af26c030cf632cd0def46a58",
+      "response_sha256": "71a054886ac15a02a5b2ae4deaa26b17492838e2aae39ca1273f413f255dff55",
+      "signature": "ACRStealer",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/71a054886ac15a02a5b2ae4deaa26b17492838e2aae39ca1273f413f255dff55/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:34:17",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 4714,
+      "response_md5": "36d8b1e09841f91542e41aa8e30b979c",
+      "response_sha256": "a5837443200f7de20c018c314ac86084031c88719204c4192dcb33739be521ef",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/a5837443200f7de20c018c314ac86084031c88719204c4192dcb33739be521ef/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:31:00",
+      "filename": null,
+      "file_type": "js",
+      "file_size": 6663,
+      "response_md5": "c49fc99f9bce46215d481f52e7d1fcfd",
+      "response_sha256": "a296e8804b671859cc0e6200bf8d1f4b2bddcacabe12aa726f1f9abb92457057",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/a296e8804b671859cc0e6200bf8d1f4b2bddcacabe12aa726f1f9abb92457057/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:29:14",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 3631128,
+      "response_md5": "746bc3d5af26c030cf632cd0def46a58",
+      "response_sha256": "71a054886ac15a02a5b2ae4deaa26b17492838e2aae39ca1273f413f255dff55",
+      "signature": "ACRStealer",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/71a054886ac15a02a5b2ae4deaa26b17492838e2aae39ca1273f413f255dff55/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:27:06",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 135784,
+      "response_md5": "59ce0baba11893f90527fc951ac69912",
+      "response_sha256": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+      "signature": "Mozi",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-10 09:24:10",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 3631128,
+      "response_md5": "746bc3d5af26c030cf632cd0def46a58",
+      "response_sha256": "71a054886ac15a02a5b2ae4deaa26b17492838e2aae39ca1273f413f255dff55",
+      "signature": "ACRStealer",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/71a054886ac15a02a5b2ae4deaa26b17492838e2aae39ca1273f413f255dff55/"
+    }
+  ]
+}

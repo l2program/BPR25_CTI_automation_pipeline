@@ -1,0 +1,29 @@
+{
+  "number of entries": 1000,
+  "unique_sha256_entries": 532,
+  "duplicate_sha256_entries": 468,
+  "file_type_counts": {
+    "elf": 316,
+    "html": 279,
+    "dll": 241,
+    "js": 50,
+    "hta": 32,
+    "exe": 28,
+    "txt": 13,
+    "sh": 12,
+    "json": 11,
+    "unknown": 8
+  },
+  "signature_counts": {
+    "missing": 517,
+    "ACRStealer": 135,
+    "Mozi": 133,
+    "Mirai": 119,
+    "NetSupport": 72,
+    "CoinMiner": 16,
+    "Gafgyt": 3,
+    "ConnectWise": 2,
+    "njrat": 2,
+    "Adware.Generic": 1
+  }
+}

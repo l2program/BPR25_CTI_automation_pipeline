@@ -1,0 +1,558 @@
+{
+  "url_summary": {
+    "number of entries": 1000,
+    "status_counts": {
+      "online": 677,
+      "offline": 323
+    },
+    "top_tags": {
+      "mozi": 302,
+      "elf": 274,
+      "32-bit": 215,
+      "smartloader": 204,
+      "zip": 204,
+      "mips": 188,
+      "clearfake": 187,
+      "mirai": 167,
+      "ua-wget": 65,
+      "arm": 36
+    },
+    "top_reporters": {
+      "geenensp": 217,
+      "tcains1": 204,
+      "anonymous": 188,
+      "adliwahid": 129,
+      "GAYINT_DOT_ORG": 85,
+      "c2hunter": 81,
+      "botnetkiller": 51,
+      "abuse_ch": 19,
+      "ClearlyNotB": 11,
+      "malwarereport": 5
+    },
+    "top_hosts": {
+      "github.com": 152,
+      "raw.githubusercontent.com": 123,
+      "129.213.9.74": 21,
+      "176.65.139.141": 16,
+      "103.77.246.198": 16,
+      "165.22.247.105": 15,
+      "54.39.101.43": 14,
+      "204.76.203.164": 11,
+      "82.26.74.80": 10,
+      "192.109.200.197": 9
+    }
+  },
+  "payload_summary": {
+    "number of entries": 1000,
+    "unique_sha256_entries": 645,
+    "duplicate_sha256_entries": 355,
+    "file_type_counts": {
+      "elf": 378,
+      "html": 267,
+      "dll": 119,
+      "zip": 68,
+      "rar": 46,
+      "js": 39,
+      "hta": 34,
+      "exe": 27,
+      "sh": 8,
+      "json": 5
+    },
+    "signature_counts": {
+      "missing": 684,
+      "Mirai": 148,
+      "Mozi": 130,
+      "CoinMiner": 21,
+      "DDoSAgent": 4,
+      "Gafgyt": 3,
+      "ZigClipper": 2,
+      "NetSupport": 2,
+      "LummaStealer": 1,
+      "Arechclient2": 1
+    }
+  },
+  "url_examples": [
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831628",
+      "indicator_type": "url",
+      "indicator_value": "http://27.215.84.219:47157/bin.sh",
+      "host": "27.215.84.219",
+      "first_seen": "2026-04-25 19:13:11 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3831628/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "32-bit",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "32-bit architecture or binary"
+        },
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "mips",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "targets MIPS architecture"
+        },
+        {
+          "raw_tag": "mozi",
+          "mapped": true,
+          "category": "malware_family",
+          "meaning": "IoT botnet"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831627",
+      "indicator_type": "url",
+      "indicator_value": "https://vert-9.qiv5moren.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk",
+      "host": "vert-9.qiv5moren.in.net",
+      "first_seen": "2026-04-25 19:11:08 UTC",
+      "status": "online",
+      "tags": [
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3831627/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "clearfake",
+          "mapped": true,
+          "category": "malware_campaign",
+          "meaning": "social engineering malware campaign"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831626",
+      "indicator_type": "url",
+      "indicator_value": "http://113.236.10.66:58514/i",
+      "host": "113.236.10.66",
+      "first_seen": "2026-04-25 19:09:20 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3831626/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "32-bit",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "32-bit architecture or binary"
+        },
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "mips",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "targets MIPS architecture"
+        },
+        {
+          "raw_tag": "mozi",
+          "mapped": true,
+          "category": "malware_family",
+          "meaning": "IoT botnet"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831625",
+      "indicator_type": "url",
+      "indicator_value": "http://112.246.10.205:49369/i",
+      "host": "112.246.10.205",
+      "first_seen": "2026-04-25 19:07:07 UTC",
+      "status": "online",
+      "tags": [
+        "mozi"
+      ],
+      "reporter": "GAYINT_DOT_ORG",
+      "reference": "https://urlhaus.abuse.ch/url/3831625/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "mozi",
+          "mapped": true,
+          "category": "malware_family",
+          "meaning": "IoT botnet"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831624",
+      "indicator_type": "url",
+      "indicator_value": "https://gold-star-4s.qiv5moren.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk",
+      "host": "gold-star-4s.qiv5moren.in.net",
+      "first_seen": "2026-04-25 19:06:13 UTC",
+      "status": "online",
+      "tags": [
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3831624/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "clearfake",
+          "mapped": true,
+          "category": "malware_campaign",
+          "meaning": "social engineering malware campaign"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831623",
+      "indicator_type": "url",
+      "indicator_value": "https://fast-1.bexla8rin.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk",
+      "host": "fast-1.bexla8rin.in.net",
+      "first_seen": "2026-04-25 19:00:11 UTC",
+      "status": "online",
+      "tags": [
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3831623/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "clearfake",
+          "mapped": true,
+          "category": "malware_campaign",
+          "meaning": "social engineering malware campaign"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831622",
+      "indicator_type": "url",
+      "indicator_value": "http://42.228.35.148:57852/bin.sh",
+      "host": "42.228.35.148",
+      "first_seen": "2026-04-25 18:54:15 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3831622/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "32-bit",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "32-bit architecture or binary"
+        },
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "mips",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "targets MIPS architecture"
+        },
+        {
+          "raw_tag": "mozi",
+          "mapped": true,
+          "category": "malware_family",
+          "meaning": "IoT botnet"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831621",
+      "indicator_type": "url",
+      "indicator_value": "https://wald-baum-7.bexla8rin.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk",
+      "host": "wald-baum-7.bexla8rin.in.net",
+      "first_seen": "2026-04-25 18:54:06 UTC",
+      "status": "online",
+      "tags": [
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3831621/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "clearfake",
+          "mapped": true,
+          "category": "malware_campaign",
+          "meaning": "social engineering malware campaign"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831620",
+      "indicator_type": "url",
+      "indicator_value": "http://156.229.165.225/sysupdate.sh",
+      "host": "156.229.165.225",
+      "first_seen": "2026-04-25 18:51:18 UTC",
+      "status": "offline",
+      "tags": [
+        "sh",
+        "ua-wget"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3831620/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": false,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "sh",
+          "mapped": false,
+          "category": "unknown",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3831619",
+      "indicator_type": "url",
+      "indicator_value": "https://bleu-2k.bexla8rin.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk",
+      "host": "bleu-2k.bexla8rin.in.net",
+      "first_seen": "2026-04-25 18:49:17 UTC",
+      "status": "online",
+      "tags": [
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3831619/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "clearfake",
+          "mapped": true,
+          "category": "malware_campaign",
+          "meaning": "social engineering malware campaign"
+        }
+      ]
+    }
+  ],
+  "payload_examples": [
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:19:35",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 41906,
+      "response_md5": "3c8032aeb6b1d954fe3f851d02253d8b",
+      "response_sha256": "bb8ed29838a55d9083da2933fff4544fd5ea70b8fa0a7d971a86a7c61889d37a",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/bb8ed29838a55d9083da2933fff4544fd5ea70b8fa0a7d971a86a7c61889d37a/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:19:02",
+      "filename": null,
+      "file_type": "doc",
+      "file_size": 735987,
+      "response_md5": "87af0f58f633a1fed1f74513b1da01be",
+      "response_sha256": "7e6ab8f6a7dd4c0e630955d786d96735bfaf759d323e45cdf86207efebff75a2",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/7e6ab8f6a7dd4c0e630955d786d96735bfaf759d323e45cdf86207efebff75a2/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:17:10",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 6695,
+      "response_md5": "aad781d25e94fcae611373ce8e25f214",
+      "response_sha256": "e3b21675e3c347a8f70911ff02785e69a76b42e3c7a2165147dd0bdc04a35021",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/e3b21675e3c347a8f70911ff02785e69a76b42e3c7a2165147dd0bdc04a35021/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:15:34",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 4706,
+      "response_md5": "21841e6ea5c62846b2cbe5b109468cb4",
+      "response_sha256": "01ffc3a5f087936d04e3b7891187d5f70903b3f4545087536cb503c850da3b6f",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/01ffc3a5f087936d04e3b7891187d5f70903b3f4545087536cb503c850da3b6f/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:13:11",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 135784,
+      "response_md5": "59ce0baba11893f90527fc951ac69912",
+      "response_sha256": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+      "signature": "Mozi",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:11:08",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 4359200,
+      "response_md5": "e04336b8452dd3d4606d380ac5f45844",
+      "response_sha256": "d5d1ef899e832994f3ceb7b8ccaaa708e8a2da320b9ca50382efa67cb002c68b",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/d5d1ef899e832994f3ceb7b8ccaaa708e8a2da320b9ca50382efa67cb002c68b/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:09:20",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 137480,
+      "response_md5": "3849f30b51a5c49e8d1546960cc206c7",
+      "response_sha256": "f6c97b1e2ed02578ca1066c8235ba4f991e645f89012406c639dbccc6582eec8",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/f6c97b1e2ed02578ca1066c8235ba4f991e645f89012406c639dbccc6582eec8/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:07:07",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 135784,
+      "response_md5": "59ce0baba11893f90527fc951ac69912",
+      "response_sha256": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+      "signature": "Mozi",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:07:02",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 145433,
+      "response_md5": "d992036828c41b4d9136da6bf1cd2523",
+      "response_sha256": "faa0f140988672b1f296b200d3827980c3d9936419f7d798cc9a309f6634e939",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/faa0f140988672b1f296b200d3827980c3d9936419f7d798cc9a309f6634e939/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-25 19:06:13",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 4359200,
+      "response_md5": "e04336b8452dd3d4606d380ac5f45844",
+      "response_sha256": "d5d1ef899e832994f3ceb7b8ccaaa708e8a2da320b9ca50382efa67cb002c68b",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/d5d1ef899e832994f3ceb7b8ccaaa708e8a2da320b9ca50382efa67cb002c68b/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "number of entries": 1000,
+  "status_counts": {
+    "online": 627,
+    "offline": 373
+  },
+  "top_tags": {
+    "elf": 286,
+    "zip": 273,
+    "smartloader": 267,
+    "clearfake": 262,
+    "32-bit": 256,
+    "mozi": 256,
+    "netsupport": 221,
+    "mips": 211,
+    "mirai": 84,
+    "ua-wget": 68
+  },
+  "top_reporters": {
+    "tcains1": 287,
+    "anonymous": 262,
+    "geenensp": 256,
+    "JAMESWT_WT": 39,
+    "BlinkzSec": 37,
+    "abuse_ch": 37,
+    "burger": 28,
+    "ClearlyNotB": 19,
+    "DeatWtf": 17,
+    "botnetkiller": 12
+  },
+  "top_hosts": {
+    "github.com": 152,
+    "raw.githubusercontent.com": 137,
+    "196.199.55.11": 16,
+    "93.95.115.14": 12,
+    "77.221.153.207": 10,
+    "dl.armour-inc-down.net": 10,
+    "85.208.9.62": 9,
+    "whtempdomain.com": 7,
+    "weedhack.xyz": 7,
+    "85.239.147.6": 5
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "number of entries": 1000,
+  "status_counts": {
+    "online": 510,
+    "offline": 490
+  },
+  "top_tags": {
+    "elf": 425,
+    "mozi": 317,
+    "clearfake": 302,
+    "32-bit": 290,
+    "netsupport": 268,
+    "mips": 217,
+    "ua-wget": 211,
+    "mirai": 159,
+    "zip": 121,
+    "smartloader": 94
+  },
+  "top_reporters": {
+    "anonymous": 302,
+    "geenensp": 291,
+    "tcains1": 133,
+    "BlinkzSec": 107,
+    "NDA0E": 66,
+    "GAYINT_DOT_ORG": 46,
+    "botnetkiller": 27,
+    "ClearlyNotB": 14,
+    "c2hunter": 5,
+    "seventeam": 4
+  },
+  "top_hosts": {
+    "github.com": 52,
+    "raw.githubusercontent.com": 51,
+    "130.12.180.16": 29,
+    "dl.armour-inc-down.net": 27,
+    "43.228.157.130": 16,
+    "85.11.167.182": 16,
+    "176.65.148.112": 15,
+    "linchens.com": 13,
+    "outel.linchens.com": 13,
+    "141.98.10.64": 12
+  }
+}

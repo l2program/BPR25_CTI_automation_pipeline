@@ -1,0 +1,440 @@
+{
+  "url_summary": {
+    "number of entries": 1000,
+    "status_counts": {
+      "online": 544,
+      "offline": 456
+    },
+    "top_tags": {
+      "zip": 273,
+      "smartloader": 267,
+      "elf": 261,
+      "clearfake": 229,
+      "32-bit": 202,
+      "mozi": 202,
+      "mips": 163,
+      "netsupport": 158,
+      "clickfix": 146,
+      "domain": 146
+    },
+    "top_reporters": {
+      "tcains1": 287,
+      "anonymous": 229,
+      "geenensp": 202,
+      "abus3reports": 146,
+      "BlinkzSec": 61,
+      "ClearlyNotB": 19,
+      "DeatWtf": 16,
+      "botnetkiller": 12,
+      "abuse_ch": 10,
+      "burger": 9
+    },
+    "top_hosts": {
+      "248bestmoon.click": 146,
+      "github.com": 139,
+      "raw.githubusercontent.com": 137,
+      "196.199.55.11": 16,
+      "93.95.115.14": 12,
+      "85.208.9.62": 11,
+      "autodiscover.atlcpatax.com": 10,
+      "77.221.153.207": 10,
+      "dl.armour-inc-down.net": 10,
+      "mail.atlcpatax.com": 9
+    }
+  },
+  "payload_summary": {
+    "number of entries": 1000,
+    "unique_sha256_entries": 552,
+    "duplicate_sha256_entries": 448,
+    "file_type_counts": {
+      "html": 262,
+      "dll": 234,
+      "elf": 215,
+      "zip": 97,
+      "txt": 55,
+      "exe": 52,
+      "js": 28,
+      "hta": 27,
+      "json": 11,
+      "ps1": 7
+    },
+    "signature_counts": {
+      "missing": 681,
+      "NetSupport": 125,
+      "Mirai": 97,
+      "Mozi": 73,
+      "CoinMiner": 13,
+      "RustyStealer": 2,
+      "CountLoader": 2,
+      "Vidar": 1,
+      "WeedHack": 1,
+      "DarkVisionRAT": 1
+    }
+  },
+  "url_examples": [
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823479",
+      "indicator_type": "url",
+      "indicator_value": "http://autoconfig.atlcpatax.com/bins/parm",
+      "host": "autoconfig.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:33 UTC",
+      "status": "online",
+      "tags": [
+        "autoconfig-atlcpatax-com",
+        "botnetdomain",
+        "elf",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823479/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823480",
+      "indicator_type": "url",
+      "indicator_value": "http://autodiscover.atlcpatax.com/bins/parm7",
+      "host": "autodiscover.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:33 UTC",
+      "status": "online",
+      "tags": [
+        "autodiscover-atlcpatax-com",
+        "botnetdomain",
+        "elf",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823480/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823481",
+      "indicator_type": "url",
+      "indicator_value": "http://autodiscover.atlcpatax.com/bins/pmips",
+      "host": "autodiscover.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:33 UTC",
+      "status": "online",
+      "tags": [
+        "autodiscover-atlcpatax-com",
+        "botnetdomain",
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823481/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823482",
+      "indicator_type": "url",
+      "indicator_value": "http://mail.atlcpatax.com/bins/psh4",
+      "host": "mail.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:33 UTC",
+      "status": "online",
+      "tags": [
+        "botnetdomain",
+        "elf",
+        "mail-atlcpatax-com",
+        "mirai",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823482/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823483",
+      "indicator_type": "url",
+      "indicator_value": "http://mail.atlcpatax.com/bins/pppc",
+      "host": "mail.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:33 UTC",
+      "status": "online",
+      "tags": [
+        "botnetdomain",
+        "elf",
+        "mail-atlcpatax-com",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823483/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823469",
+      "indicator_type": "url",
+      "indicator_value": "http://autodiscover.atlcpatax.com/bins/px86",
+      "host": "autodiscover.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:31 UTC",
+      "status": "online",
+      "tags": [
+        "autodiscover-atlcpatax-com",
+        "botnetdomain",
+        "elf",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823469/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823470",
+      "indicator_type": "url",
+      "indicator_value": "http://autoconfig.atlcpatax.com/bins/pppc",
+      "host": "autoconfig.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:31 UTC",
+      "status": "online",
+      "tags": [
+        "autoconfig-atlcpatax-com",
+        "botnetdomain",
+        "elf",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823470/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823471",
+      "indicator_type": "url",
+      "indicator_value": "http://mail.atlcpatax.com/bins/parm7",
+      "host": "mail.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:31 UTC",
+      "status": "online",
+      "tags": [
+        "botnetdomain",
+        "elf",
+        "mail-atlcpatax-com",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823471/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823472",
+      "indicator_type": "url",
+      "indicator_value": "http://mail.atlcpatax.com/bins/parm6",
+      "host": "mail.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:31 UTC",
+      "status": "online",
+      "tags": [
+        "botnetdomain",
+        "elf",
+        "mail-atlcpatax-com",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823472/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3823473",
+      "indicator_type": "url",
+      "indicator_value": "http://mail.atlcpatax.com/bins/pm68k",
+      "host": "mail.atlcpatax.com",
+      "first_seen": "2026-04-16 10:45:31 UTC",
+      "status": "online",
+      "tags": [
+        "botnetdomain",
+        "elf",
+        "mail-atlcpatax-com",
+        "ua-wget"
+      ],
+      "reporter": "BlinkzSec",
+      "reference": "https://urlhaus.abuse.ch/url/3823473/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "abused_legit_malware",
+          "surbl": "not listed"
+        }
+      }
+    }
+  ],
+  "payload_examples": [
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:58:45",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 6695,
+      "response_md5": "26c2930c2295d847c3102ec81e97db95",
+      "response_sha256": "6da016bbb6ea8015ad549040caf3a48e7f47132f496b5222a1ddec37ecf7c70e",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/6da016bbb6ea8015ad549040caf3a48e7f47132f496b5222a1ddec37ecf7c70e/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:58:38",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 145210,
+      "response_md5": "ea31f9f32dfdbfe7715821e8e1805397",
+      "response_sha256": "aa0a3cacdd3312d51ebc8bc1efa98fe98bf1ee79f9696bd6e48165e9ad83be80",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/aa0a3cacdd3312d51ebc8bc1efa98fe98bf1ee79f9696bd6e48165e9ad83be80/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:58:00",
+      "filename": null,
+      "file_type": "exe",
+      "file_size": 1578496,
+      "response_md5": "36f3dbc9e3bed0dffdc1564b5a1fa56a",
+      "response_sha256": "19caf7c6b9e64492d94829bd93f7af2557dd134a3a2e7eccd7f3613ad8ee2132",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/19caf7c6b9e64492d94829bd93f7af2557dd134a3a2e7eccd7f3613ad8ee2132/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:57:41",
+      "filename": null,
+      "file_type": "zip",
+      "file_size": 98122,
+      "response_md5": "660e08f032ad56d14796821b96b7ee83",
+      "response_sha256": "f873a8a50b9b384bc9d6348d57bd70af264109dfc4d6ac9f148723939334b1dd",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/f873a8a50b9b384bc9d6348d57bd70af264109dfc4d6ac9f148723939334b1dd/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:56:48",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 146073,
+      "response_md5": "34d20a8c5a31c24d9f72e1069967bd88",
+      "response_sha256": "61f94eed04a1c5ffa8c85c7ff2ee240d68ff42ffaaa7c0c6a2cdf7a6568105de",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/61f94eed04a1c5ffa8c85c7ff2ee240d68ff42ffaaa7c0c6a2cdf7a6568105de/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:55:25",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 145849,
+      "response_md5": "d9df5f0626ef3d8357f753b3db1c57cc",
+      "response_sha256": "679b75055c541f1e875ff038895e89928f094c9791d93a44470f63938d70d149",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/679b75055c541f1e875ff038895e89928f094c9791d93a44470f63938d70d149/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:54:47",
+      "filename": null,
+      "file_type": "js",
+      "file_size": 189496,
+      "response_md5": "803d85ddc8cd213e9ff2bb39759a38c0",
+      "response_sha256": "f264d512030c9c95e96a90bbe5ddb4971da3585b5b1c648aa2ac6e86c526ac60",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/f264d512030c9c95e96a90bbe5ddb4971da3585b5b1c648aa2ac6e86c526ac60/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:53:53",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 3920864,
+      "response_md5": "d80dee5f44a6ed9a2efea5f03676bbd9",
+      "response_sha256": "50c62e5547c4b855ee99b610bfba7667bc00b05a442e0e6a7b3c4b9c301fb306",
+      "signature": "NetSupport",
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/50c62e5547c4b855ee99b610bfba7667bc00b05a442e0e6a7b3c4b9c301fb306/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:51:20",
+      "filename": null,
+      "file_type": "json",
+      "file_size": 7450,
+      "response_md5": "7fa13bc8e362fc8d6a54c7d28f5c96ce",
+      "response_sha256": "4b10d2ffb175579245f7fa265d9fd49c8c36afbaf66c1c81ee76b609d4e1c12b",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/4b10d2ffb175579245f7fa265d9fd49c8c36afbaf66c1c81ee76b609d4e1c12b/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-16 10:50:18",
+      "filename": null,
+      "file_type": "html",
+      "file_size": 142456,
+      "response_md5": "2c675be9d6f73bdbfd2b5f394425a2f5",
+      "response_sha256": "b54dc6a9339bc6520bda97102d075e7fdbbaa49c4993ef714f28e8c883f8c978",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/b54dc6a9339bc6520bda97102d075e7fdbbaa49c4993ef714f28e8c883f8c978/"
+    }
+  ]
+}
