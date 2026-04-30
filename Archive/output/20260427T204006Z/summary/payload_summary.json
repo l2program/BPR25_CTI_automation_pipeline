@@ -1,0 +1,28 @@
+{
+  "number of entries": 1000,
+  "unique_sha256_entries": 535,
+  "duplicate_sha256_entries": 465,
+  "file_type_counts": {
+    "elf": 335,
+    "html": 277,
+    "dll": 202,
+    "rar": 47,
+    "js": 41,
+    "exe": 36,
+    "hta": 25,
+    "sh": 13,
+    "unknown": 9,
+    "zip": 8
+  },
+  "signature_counts": {
+    "missing": 732,
+    "Mozi": 122,
+    "Mirai": 114,
+    "CoinMiner": 22,
+    "Stealc": 3,
+    "WeedHack": 3,
+    "ConnectWise": 2,
+    "Hajime": 1,
+    "LummaStealer": 1
+  }
+}

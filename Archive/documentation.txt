@@ -1,0 +1,5 @@
+py -m venv .venv
+py -m pip install python-dotenv #activate venv
+py -m pip install vt-py python-dotenv
+
+

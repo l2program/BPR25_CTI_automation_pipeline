@@ -1,0 +1,35 @@
+{
+  "total_tag_observations": 2816,
+  "mapped_tag_observations": 2315,
+  "unmapped_tag_observations": 501,
+  "mapping_coverage_percentage": 82.21,
+  "unmapped_percent": 17.79,
+  "category_counts": {
+    "malware_family": 624,
+    "file_format": 560,
+    "architecture": 533,
+    "delivery_pattern": 320,
+    "malware_campaign": 278
+  },
+  "top_mapped_tags": {
+    "elf": 560,
+    "mozi": 335,
+    "ua-wget": 320,
+    "32-bit": 297,
+    "mirai": 289,
+    "clearfake": 278,
+    "mips": 236
+  },
+  "top_unmapped_tags": {
+    "arm": 79,
+    "opendir": 62,
+    "194-163-151-12": 48,
+    "botnetdomain": 40,
+    "exe": 38,
+    "connectwise": 33,
+    "sh": 15,
+    "vmi3229260-contaboserver-net": 14,
+    "luxzzc2servers-my-id": 14,
+    "happytugsbakery-com": 12
+  }
+}

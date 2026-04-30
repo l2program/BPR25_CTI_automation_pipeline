@@ -1,0 +1,676 @@
+{
+  "url_summary": {
+    "number of entries": 1000,
+    "status_counts": {
+      "online": 394,
+      "offline": 606
+    },
+    "top_tags": {
+      "elf": 560,
+      "mozi": 335,
+      "ua-wget": 320,
+      "32-bit": 297,
+      "mirai": 289,
+      "clearfake": 278,
+      "mips": 236,
+      "arm": 79,
+      "opendir": 62,
+      "194-163-151-12": 48
+    },
+    "top_reporters": {
+      "geenensp": 300,
+      "anonymous": 278,
+      "botnetkiller": 161,
+      "BlinkzSec": 145,
+      "GAYINT_DOT_ORG": 68,
+      "abuse_ch": 17,
+      "burger": 13,
+      "Bitsight": 9,
+      "JAMESWT_WT": 3,
+      "SanchoZZ": 2
+    },
+    "top_hosts": {
+      "194.163.151.12": 48,
+      "happytugsbakery.com": 29,
+      "83.168.95.185": 17,
+      "142.248.80.144": 16,
+      "140.233.190.47": 16,
+      "176.65.139.177": 15,
+      "144.172.98.94": 15,
+      "62.171.142.33": 15,
+      "vmi3229260.contaboserver.net": 14,
+      "luxzzc2servers.my.id": 14
+    }
+  },
+  "payload_summary": {
+    "number of entries": 1000,
+    "unique_sha256_entries": 535,
+    "duplicate_sha256_entries": 465,
+    "file_type_counts": {
+      "elf": 335,
+      "html": 277,
+      "dll": 202,
+      "rar": 47,
+      "js": 41,
+      "exe": 36,
+      "hta": 25,
+      "sh": 13,
+      "unknown": 9,
+      "zip": 8
+    },
+    "signature_counts": {
+      "missing": 732,
+      "Mozi": 122,
+      "Mirai": 114,
+      "CoinMiner": 22,
+      "Stealc": 3,
+      "WeedHack": 3,
+      "ConnectWise": 2,
+      "Hajime": 1,
+      "LummaStealer": 1
+    }
+  },
+  "url_examples": [
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833240",
+      "indicator_type": "url",
+      "indicator_value": "https://rouge-4.novis-data.in.net/cdk-msdn-3457325-null/load-file0dsdf567.chk",
+      "host": "rouge-4.novis-data.in.net",
+      "first_seen": "2026-04-27 20:38:08 UTC",
+      "status": "online",
+      "tags": [
+        "clearfake"
+      ],
+      "reporter": "anonymous",
+      "reference": "https://urlhaus.abuse.ch/url/3833240/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "clearfake",
+          "mapped": true,
+          "category": "malware_campaign",
+          "meaning": "social engineering malware campaign"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833239",
+      "indicator_type": "url",
+      "indicator_value": "http://182.127.44.241:35304/bin.sh",
+      "host": "182.127.44.241",
+      "first_seen": "2026-04-27 20:37:16 UTC",
+      "status": "online",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mozi"
+      ],
+      "reporter": "geenensp",
+      "reference": "https://urlhaus.abuse.ch/url/3833239/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "32-bit",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "32-bit architecture or binary"
+        },
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "mips",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "targets MIPS architecture"
+        },
+        {
+          "raw_tag": "mozi",
+          "mapped": true,
+          "category": "malware_family",
+          "meaning": "IoT botnet"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833238",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/debug",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:32:22 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "opendir",
+        "ua-wget",
+        "x86"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833238/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        },
+        {
+          "raw_tag": "x86",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833226",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.x86_64",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "opendir",
+        "ua-wget",
+        "x86"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833226/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        },
+        {
+          "raw_tag": "x86",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833227",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.arm5",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "arm",
+        "elf",
+        "opendir",
+        "ua-wget"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833227/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "arm",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833228",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.x86",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "opendir",
+        "ua-wget",
+        "x86"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833228/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        },
+        {
+          "raw_tag": "x86",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833229",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.mpsl",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "mips",
+        "opendir",
+        "ua-wget"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833229/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "mips",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "targets MIPS architecture"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833230",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.i686",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "opendir",
+        "ua-wget",
+        "x86"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833230/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        },
+        {
+          "raw_tag": "x86",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833231",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.mips",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "mips",
+        "opendir",
+        "ua-wget"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833231/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "mips",
+          "mapped": true,
+          "category": "architecture",
+          "meaning": "targets MIPS architecture"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        }
+      ]
+    },
+    {
+      "source": "/urlhaus/urls/recent/",
+      "source_id": "3833232",
+      "indicator_type": "url",
+      "indicator_value": "http://142.248.80.144/shutupnigga/vaxstresser.ppc",
+      "host": "142.248.80.144",
+      "first_seen": "2026-04-27 20:31:19 UTC",
+      "status": "online",
+      "tags": [
+        "elf",
+        "opendir",
+        "powerpc",
+        "ua-wget"
+      ],
+      "reporter": "botnetkiller",
+      "reference": "https://urlhaus.abuse.ch/url/3833232/",
+      "source_metadata": {
+        "threat": "malware_download",
+        "reported_to_hosting_provider": true,
+        "blacklists": {
+          "spamhaus_dbl": "not listed",
+          "surbl": "not listed"
+        }
+      },
+      "enriched_tags": [
+        {
+          "raw_tag": "elf",
+          "mapped": true,
+          "category": "file_format",
+          "meaning": "Executable and Linkable Format"
+        },
+        {
+          "raw_tag": "opendir",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "powerpc",
+          "mapped": false,
+          "category": "unmapped",
+          "meaning": null
+        },
+        {
+          "raw_tag": "ua-wget",
+          "mapped": true,
+          "category": "delivery_pattern",
+          "meaning": "user-agent wget usage"
+        }
+      ]
+    }
+  ],
+  "payload_examples": [
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:38:08",
+      "filename": null,
+      "file_type": "dll",
+      "file_size": 5379072,
+      "response_md5": "97f2eae4b333afbf4f5071eb15893d77",
+      "response_sha256": "99d190e212134154fe3ea94aadb714026ba43d594be30f66409bd6913dac2fe9",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/99d190e212134154fe3ea94aadb714026ba43d594be30f66409bd6913dac2fe9/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:37:16",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 135784,
+      "response_md5": "59ce0baba11893f90527fc951ac69912",
+      "response_sha256": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:35:43",
+      "filename": null,
+      "file_type": "sh",
+      "file_size": 452,
+      "response_md5": "a4e39e6492b8f51cb9d1da4a275f7eb7",
+      "response_sha256": "99b90eb991342097eed26458ceabae185c87416b8e5bb807c4e598a395cc2c3c",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/99b90eb991342097eed26458ceabae185c87416b8e5bb807c4e598a395cc2c3c/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:32:22",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 41840,
+      "response_md5": "eb65634dae30749c5fd7b54f361543d6",
+      "response_sha256": "3d0ca38f9c9ea70e8ffb229c38c5783e8253d380cfc59f9abc5e8c477fb10e5b",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/3d0ca38f9c9ea70e8ffb229c38c5783e8253d380cfc59f9abc5e8c477fb10e5b/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:31:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 39692,
+      "response_md5": "6737931339d3a38ab67fb2aba198bbdc",
+      "response_sha256": "a22f6eda1ca12a99e36053dc09e866d8bef715331049a24139f041167f764a1d",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/a22f6eda1ca12a99e36053dc09e866d8bef715331049a24139f041167f764a1d/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:31:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 41304,
+      "response_md5": "7110de73c4c6e431a708e51642b316de",
+      "response_sha256": "aa1f63d4581631b161db6d109d5272d5596bb034a5fc4f2a2c9f214e83802857",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/aa1f63d4581631b161db6d109d5272d5596bb034a5fc4f2a2c9f214e83802857/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:31:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 41988,
+      "response_md5": "71374b861af97673e289c77b0f231051",
+      "response_sha256": "99b5bfbec6ba9771f68935052512c3e6a7a1c67657cb2ab2cfbc3e49c1a2a360",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/99b5bfbec6ba9771f68935052512c3e6a7a1c67657cb2ab2cfbc3e49c1a2a360/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:31:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 25128,
+      "response_md5": "7d3328f46b51a88e54be397fecc44ffb",
+      "response_sha256": "8a21b2a34d07ed8cfbfd2a0c621f0152628de493884177395ae16259a5a70479",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/8a21b2a34d07ed8cfbfd2a0c621f0152628de493884177395ae16259a5a70479/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:31:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 80376,
+      "response_md5": "94a7e95c232f0b5c5f6698f082881292",
+      "response_sha256": "157ec2205a2b31abe647f4172a21e9a4fd3095f0f7c635aac6de7207ac268273",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/157ec2205a2b31abe647f4172a21e9a4fd3095f0f7c635aac6de7207ac268273/"
+    },
+    {
+      "source": "/urlhaus/payloads/recent/",
+      "first_seen": "2026-04-27 20:31:19",
+      "filename": null,
+      "file_type": "elf",
+      "file_size": 43264,
+      "response_md5": "a1357b429112a9acd050b1b84eb4c456",
+      "response_sha256": "3c210c1262426dec58f6ea9bec9d333405cbb09159b230935a167122bbc22fc7",
+      "signature": null,
+      "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/3c210c1262426dec58f6ea9bec9d333405cbb09159b230935a167122bbc22fc7/"
+    }
+  ]
+}
