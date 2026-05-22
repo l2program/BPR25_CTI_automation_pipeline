@@ -1,6 +1,6 @@
 import requests
 
-VT_API_KEY = "b07efeffdc0738f47c3172adbd50ff9d1b05030a45840731a2928a4524e91d98" 
+VT_API_KEY = "INSERT_API_KEY" 
 
 ip = "165.22.247.105"
 
